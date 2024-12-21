@@ -7,7 +7,6 @@ type Props = {
   unit: Unit;
 };
 
-// Render 7-day forecast
 const CurrentWeather = ({ weatherData, unit }: Props) => {
   if (!weatherData) return null;
 
